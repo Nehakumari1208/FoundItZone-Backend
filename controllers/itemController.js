@@ -1,5 +1,4 @@
 const Item = require("../models/item");
-const User = require("../models/user");
 const { uploadToCloudinary } = require("../utils/cloudinary");
 
 const createItem = async (req, res) => {
